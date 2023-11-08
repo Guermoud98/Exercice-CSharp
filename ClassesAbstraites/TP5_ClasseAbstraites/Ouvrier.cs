@@ -11,7 +11,7 @@ namespace TP5_ClasseAbstraites
         private DateTime dateEntree;
         private int smig = 2500;
         private double salaireMensuel;
-        public Ouvrier(DateTime dateEntree, string nom, string prenom) : base(nom, prenom, dateEntree)
+        public Ouvrier(DateTime ddn,DateTime dateEntree, string nom, string prenom) : base(nom, prenom, ddn)
         {
             this.dateEntree = dateEntree;
         }

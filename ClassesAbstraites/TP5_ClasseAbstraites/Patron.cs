@@ -24,5 +24,9 @@ namespace TP5_ClasseAbstraites
         {
             return base.ToString() + ", CA: " + CA + ", salaireAnnuel: " + salaireAnnuel + ", pourcentage: " + pourcentage;
         }
+        public void setCA(double CA)
+        {
+            Patron.CA = CA; //it's a static attribute 
+        }
     }
 }

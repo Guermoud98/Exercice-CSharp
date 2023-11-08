@@ -38,7 +38,7 @@ namespace TP5_ClasseAbstraites
         }
         public override string ToString()
         {
-            return base.ToString + ", indice: " + indice + ", salaireMens: " + salaireMensuel; 
+            return base.ToString() + ", indice: " + indice + ", salaireMens: " + salaireMensuel; 
         }
     }
 }

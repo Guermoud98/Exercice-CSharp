@@ -13,14 +13,14 @@ namespace TP5_ClasseAbstraites
         protected int nbr = 0;
         protected string nom;
         protected string prenom;
-        protected DateTime d;
-        public Employe(string nom, string prenom,DateTime d)
+        protected DateTime ddn;
+        public Employe(string nom, string prenom,DateTime ddn)
         {
             nbr++;
             matr = nbr;
             this.nom = nom;
             this.prenom = prenom;
-            this.d = d;
+            this.ddn = ddn;
         }
         public int Matr
         {
@@ -36,14 +36,14 @@ namespace TP5_ClasseAbstraites
             get { return prenom; }
             set { prenom =  value; }
         }
-        public  DateTime D
+        public  DateTime Ddn
         {
-            get { return d; }
-            set { d = value; }
+            get { return ddn; }
+            set { ddn = value; }
         }
         public override string ToString()
         {
-            return "[matr: " + matr + ", nom: " + nom + ", prenom: " + prenom + ", dateNaissance: " + d + "]";
+            return "[matr: " + matr + ", nom: " + nom + ", prenom: " + prenom + ", dateNaissance: " + ddn.Year + "/" + ddn.Month + "/" + ddn.Day + "]" ;
 
         }
         public abstract double CalculerSalaire();
