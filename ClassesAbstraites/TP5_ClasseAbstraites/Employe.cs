@@ -9,8 +9,8 @@ namespace TP5_ClasseAbstraites
 {
     abstract internal class Employe
     {
-        protected static int matr;
-        protected int nbr = 0;
+        protected int matr;
+        protected static int nbr = 0;
         protected string nom;
         protected string prenom;
         protected DateTime ddn;

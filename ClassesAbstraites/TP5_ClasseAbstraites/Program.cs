@@ -25,6 +25,17 @@ namespace TP5_ClasseAbstraites
             Console.WriteLine(c);
             Console.WriteLine(o);
             Console.WriteLine(p);
+            Employe[] emp= new Employe[3];
+            emp[0] = c;
+            emp[1] = o;
+            emp[2] = p;
+            Console.WriteLine("==========The array of different objets==============");
+            for(int i = 0; i < emp.Length; i++)
+            {
+                Console.WriteLine(emp[i].ToString());
+                Console.WriteLine("The salary: " + emp[i].CalculerSalaire());
+            }
+            
 
 
 
