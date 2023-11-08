@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrateur\\Desktop\\Main\\EMSI\\s7\\DotNet\\TP5\\TP5_ClasseAbstraites\\TP5_ClasseAbstraites\\TP5_ClasseAbstraites.csproj",
+      "projectUniqueName": "C:\\Users\\Administrateur\\Desktop\\Main\\EMSI\\s7\\DotNet\\TP5\\Exercice-CSharp\\ClassesAbstraites\\TP5_ClasseAbstraites\\TP5_ClasseAbstraites.csproj",
       "projectName": "TP5_ClasseAbstraites",
-      "projectPath": "C:\\Users\\Administrateur\\Desktop\\Main\\EMSI\\s7\\DotNet\\TP5\\TP5_ClasseAbstraites\\TP5_ClasseAbstraites\\TP5_ClasseAbstraites.csproj",
+      "projectPath": "C:\\Users\\Administrateur\\Desktop\\Main\\EMSI\\s7\\DotNet\\TP5\\Exercice-CSharp\\ClassesAbstraites\\TP5_ClasseAbstraites\\TP5_ClasseAbstraites.csproj",
       "packagesPath": "C:\\Users\\Administrateur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrateur\\Desktop\\Main\\EMSI\\s7\\DotNet\\TP5\\TP5_ClasseAbstraites\\TP5_ClasseAbstraites\\obj\\",
+      "outputPath": "C:\\Users\\Administrateur\\Desktop\\Main\\EMSI\\s7\\DotNet\\TP5\\Exercice-CSharp\\ClassesAbstraites\\TP5_ClasseAbstraites\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
