@@ -25,5 +25,9 @@ namespace TP5_ClasseAbstraites
             }
             return -1; 
         }
+        public override string ToString()
+        {
+            return base.ToString() + ", dateENtree: " + dateEntree + ", smig: " + smig + ", salaireMens: " + salaireMensuel;
+        }
     }
 }

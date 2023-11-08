@@ -20,5 +20,9 @@ namespace TP5_ClasseAbstraites
             salaireAnnuel = CA * (pourcentage/100);
             return salaireAnnuel;
         }
+        public override string ToString()
+        {
+            return base.ToString() + ", CA: " + CA + ", salaireAnnuel: " + salaireAnnuel + ", pourcentage: " + pourcentage;
+        }
     }
 }
